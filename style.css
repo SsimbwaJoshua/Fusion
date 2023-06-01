@@ -37,8 +37,7 @@ html {
 /* //////////////////////////// */
 .header-section {
   margin: 0 0 13rem 0;
-  padding: 3rem 0 0 0;
-  height: 90vh;
+  padding: 3rem 0 13rem 0;
   background-image: linear-gradient(
       to right,
       rgba(95, 61, 196, 0.81),
@@ -46,7 +45,24 @@ html {
     ),
     url(images/big-1.webp);
   background-size: cover;
+
+  position: relative;
+  z-index: 9;
 }
+.header-section::after {
+  content: "";
+  width: 100%;
+  height: 8rem;
+  background-color: blue;
+  /* background: inherit; */
+  z-index: 10;
+
+  position: absolute;
+  bottom: -6rem;
+  transform-origin: bottom left;
+  transform: skewY(178deg);
+}
+/* /////////////////////////////////////////////////////////// */
 .Navigation {
   display: flex;
   justify-content: space-between;
@@ -134,9 +150,33 @@ html {
 /* //////////////////////////// */
 /* NUMBERS section */
 /* //////////////////////////// */
-
+.section-numbers {
+  margin-bottom: 13rem;
+}
 .section-2-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-items: center;
 }
+.number-cell {
+  padding: 2rem 7rem 2rem 0;
+}
+.number-text-1 {
+  color: var(--primary-green);
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.number-text-2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--primary-purple);
+}
+.border-right {
+  border-right: 1px solid #ccc;
+  justify-self: end;
+}
+
+/* //////////////////////////// */
+/* RECOMENDED section */
+/* //////////////////////////// */
