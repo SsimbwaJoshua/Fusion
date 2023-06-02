@@ -518,3 +518,24 @@ blockquote > p {
   top: 0rem;
   left: 40rem;
 }
+
+/* //////////////////////////// */
+/*other company logos SECTION */
+/* //////////////////////////// */
+.section-other-company-logos {
+  margin-bottom: 8rem;
+}
+.other-company-logos-container {
+  display: flex;
+  justify-content: space-between;
+
+  padding-top: 5rem;
+  border-top: 2px solid #e9ecef;
+}
+.company-logos {
+  width: 13rem;
+  height: 3rem;
+
+  filter: grayscale(100%);
+  opacity: 50%;
+}
