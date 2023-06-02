@@ -424,7 +424,97 @@ h2 {
 /* //////////////////////////// */
 /*new Courses SECTION */
 /* //////////////////////////// */
-
 .section-new-courses {
   margin-bottom: 13rem;
+}
+
+.section-testimonials {
+  margin-bottom: 13rem;
+}
+.test-splitter {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.test-left {
+  padding: 10rem 5rem;
+}
+.quote-icon {
+  font-size: 3rem;
+  color: var(--primary-green);
+}
+blockquote > p {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin: 3rem 0 2rem 0;
+  color: #495057;
+}
+.names {
+  color: #868e96;
+  font-size: 1.4rem;
+}
+.test-right {
+  justify-self: center;
+  align-self: center;
+
+  position: relative;
+}
+.main-person-img {
+  width: 28rem;
+  height: 28rem;
+  border-radius: 50%;
+}
+.circular-ring {
+  width: 40rem;
+  height: 40rem;
+  border-radius: 50%;
+  border: 2px dashed red;
+
+  position: absolute;
+  top: -6rem;
+  left: -6rem;
+}
+.snaller-face-1 {
+  width: 9rem;
+  height: 9rem;
+  border-radius: 50%;
+
+  position: absolute;
+  top: 21rem;
+  left: -7rem;
+}
+.snaller-face-2 {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+
+  position: absolute;
+  top: 27rem;
+  left: 24rem;
+}
+.snaller-face-3 {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+
+  position: absolute;
+  top: 10rem;
+  left: 31rem;
+}
+.snaller-face-4 {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+
+  position: absolute;
+  top: -7rem;
+  left: 21rem;
+}
+.snaller-face-5 {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+
+  position: absolute;
+  top: 0rem;
+  left: 40rem;
 }
