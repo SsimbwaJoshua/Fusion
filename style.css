@@ -544,5 +544,30 @@ blockquote > p {
 /*footer SECTION */
 /* //////////////////////////// */
 
+.footer-section {
+  margin-bottom: 13rem;
+}
 .foot-splitter {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.mid-foot {
+  display: flex;
+  gap: 4rem;
+}
+.foot-links {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  margin-top: 3rem;
+}
+
+.bottom-footer {
+  display: flex;
+  justify-content: space-between;
+}
+.bt-bt-right {
+  display: flex;
+  gap: 1rem;
 }
