@@ -545,29 +545,113 @@ blockquote > p {
 /* //////////////////////////// */
 
 .footer-section {
-  margin-bottom: 13rem;
+  /* margin-bottom: 13rem; */
+  background-color: #1f2235;
+  padding: 10rem 0;
 }
 .foot-splitter {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 0.5fr 1fr 1.2fr;
+}
+.foot-fusion {
+  font-size: 3.8rem;
+  font-weight: 700;
+}
+.fut-mid-heading,
+.right-fut-head,
+.foot-fusion {
+  color: #fff;
 }
 .mid-foot {
+  justify-self: center;
   display: flex;
-  gap: 4rem;
+  gap: 7rem;
 }
+.fut-mid-heading {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
 .foot-links {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 1.5rem;
 
   margin-top: 3rem;
 }
+.foot-link:link,
+.foot-link:visited {
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1.4rem;
+  color: #ccc;
+}
+.foot-link:active,
+.foot-link:hover {
+  color: var(--primary-green);
+}
 
+.right-fut-head {
+  margin-bottom: 3rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.foot-right {
+  justify-self: end;
+}
+.input {
+  height: 5rem;
+  width: 30rem;
+  padding-left: 2rem;
+  background-color: #2a2c45;
+  color: #ccc;
+  border: none;
+  margin-right: 1rem;
+}
+.input:focus {
+  /* outline: none;
+  border: 2px solid var(--primary-green); */
+}
+.foot-btn {
+  padding: 1.5rem 2.4rem;
+  border: 1px solid var(--primary-green);
+  background-color: #1f2235;
+  color: #fff;
+}
+
+/* //////////////////////////// */
+/*footer SECTION */
+/* //////////////////////////// */
+.bottom-section {
+  background-color: #2a2c45;
+  padding: 2rem 0;
+}
 .bottom-footer {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+.bottom-text {
+  font-size: 1.4rem;
+}
+.bottom-span {
+  color: #1bcf48;
 }
 .bt-bt-right {
   display: flex;
   gap: 1rem;
+}
+.bottom-btn:link,
+.bottom-btn:visited {
+  color: #fff;
+  padding: 0.5rem 1.2rem;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+.bottom-btn:active,
+.bottom-btn:hover {
+  border: 1px solid var(--primary-green);
 }
