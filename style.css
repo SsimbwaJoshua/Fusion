@@ -146,10 +146,27 @@ h2 {
   justify-content: space-between;
   align-items: center;
 }
+.nav-left {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
 .fusion {
   font-size: 2rem;
   font-weight: 600;
   color: #fff;
+}
+.menu-btn {
+  background: inherit;
+  border: none;
+  color: #fff;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hidden {
+  display: none;
 }
 .nav-links {
   display: flex;
@@ -159,6 +176,7 @@ h2 {
 }
 .first-nav-link {
   display: flex;
+  align-items: center;
 }
 .grid-icon {
   color: var(--primary-green);
