@@ -141,4 +141,111 @@
     opacity: 100%;
     visibility: visible;
   }
+  .pic-cover-5 {
+    width: 15rem;
+  }
+}
+
+/* ///////////////////// */
+/* 580px */
+/* ////////////////////// */
+@media (max-width: 37em) {
+  .main-heading,
+  h2 {
+    font-size: 4.8rem;
+  }
+  .head-input {
+    width: 30rem;
+    height: 4rem;
+  }
+  .search-btn {
+    padding: 1rem 1.6rem;
+  }
+  .nav-right {
+    gap: 1rem;
+  }
+  .triangle-7 {
+    width: 50rem;
+    height: 50rem;
+    right: -30rem;
+    top: -14rem;
+  }
+  .section-2-container {
+    grid-template-columns: 1fr;
+  }
+  .border-right {
+    border: none;
+  }
+  .grid4 {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ///////////////////// */
+/* 500px */
+/* ////////////////////// */
+@media (max-width: 31em) {
+  .other-company-logos-container {
+    grid-template-columns: 1fr 1fr;
+  }
+  .input {
+    height: 4rem;
+    width: 25rem;
+  }
+  .foot-btn {
+    padding: 1rem 2rem;
+  }
+  .bottom-footer {
+    display: flex;
+    gap: 3rem;
+  }
+  .input-serach {
+    flex-direction: column;
+    align-items: center;
+  }
+  .search-btn {
+    padding: 1rem 1.6rem;
+    width: 8rem;
+  }
+  .top-wording {
+    margin: 10rem 0;
+  }
+  .reco-btn {
+    height: 4rem;
+    width: 5rem;
+
+    font-size: 1.6rem;
+    margin-top: 6rem;
+  }
+}
+
+/* ///////////////////// */
+/* 500px */
+/* ////////////////////// */
+@media (max-width: 28em) {
+  .triangle-7 {
+    width: 45rem;
+    height: 45rem;
+    top: -9rem;
+  }
+  .mid-foot {
+    gap: 5rem;
+  }
+  .input-serach {
+    align-items: start;
+  }
+  .bottom-text {
+    font-size: 1.2rem;
+  }
+  .bottom-btn:link,
+  .bottom-btn:visited {
+    font-size: 1.2rem;
+  }
+  /* .foot-btn {
+    font-size: 1.2rem;
+  } */
+  .main-heading,
+  h2 {
+    font-size: 4.4rem;
+  }
 }
