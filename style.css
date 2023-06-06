@@ -24,6 +24,9 @@ html {
   font-family: Roboto;
   background-color: #f9f9f9;
 }
+body {
+  overflow-x: hidden;
+}
 
 .container {
   max-width: 120rem;
@@ -55,19 +58,105 @@ h2 {
   position: relative;
   z-index: 9;
 }
-.header-section::after {
+/* .header-section::after {
   content: "";
-  width: 100%;
-  height: 8rem;
-  background-color: blue;
-  /* background: inherit; */
+  width: 90%;
+  height: 100vh;
+  border: 80px inset red;
+
+  border-bottom-right-radius: 400px;
+  border-top: 80px inset transparent;
+  border-left: 80px inset transparent;
+
   z-index: 10;
 
   position: absolute;
   bottom: -6rem;
   transform-origin: bottom left;
-  transform: skewY(178deg);
+  transform: skew(175deg, 178deg);
+} */
+.pic-cover-1 {
+  width: 100%;
+  height: 160vh;
+  border: 80px inset #b2d9ba;
+
+  border-bottom-right-radius: 300px;
+  border-top: 80px inset transparent;
+  border-left: 80px inset transparent;
+  z-index: 10;
+
+  position: absolute;
+  bottom: -8rem;
+  left: -11rem;
+  transform-origin: bottom left;
+  transform: skew(163deg, 178deg);
 }
+.pic-cover-2 {
+  width: 100%;
+  height: 160vh;
+  border: 80px inset #def3e4;
+
+  border-bottom-right-radius: 300px;
+  border-top: 80px inset transparent;
+  border-left: 80px inset transparent;
+  z-index: 10;
+
+  position: absolute;
+  bottom: -10.5rem;
+  left: -11rem;
+  transform-origin: bottom left;
+  transform: skew(161deg, 178deg);
+}
+.pic-cover-3 {
+  width: 100%;
+  height: 160vh;
+  border: 80px inset #f9f9f9;
+
+  border-bottom-right-radius: 300px;
+  border-top: 80px inset transparent;
+  border-left: 80px inset transparent;
+  z-index: 10;
+
+  position: absolute;
+  bottom: -13rem;
+  left: -11rem;
+  transform-origin: bottom left;
+  transform: skew(159deg, 178deg);
+}
+.pic-cover-4 {
+  width: 7rem;
+  height: 23rem;
+  background-color: #f9f9f9;
+
+  z-index: 10;
+
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.pic-cover-5 {
+  width: 18rem;
+  height: 7rem;
+  background-color: #f9f9f9;
+
+  z-index: 10;
+
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.pic-cover-6 {
+  width: 7rem;
+  height: 7rem;
+  background-color: #f9f9f9;
+
+  z-index: 10;
+
+  position: absolute;
+  bottom: 5rem;
+  right: 5rem;
+}
+
 /* /////////////////////////////////////////////////////////// */
 .Navigation {
   display: flex;
