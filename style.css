@@ -59,7 +59,7 @@ h2 {
 }
 
 .pic-cover-1 {
-  width: 105vw;
+  width: 100vw;
   height: 200vh;
   border: 80px inset #b2d9ba;
 
@@ -75,7 +75,7 @@ h2 {
   transform: skew(160deg, 175deg);
 }
 .pic-cover-2 {
-  width: 105vw;
+  width: 100vw;
   height: 200vh;
   border: 80px inset #def3e4;
 
@@ -91,7 +91,7 @@ h2 {
   transform: skew(158deg, 175deg);
 }
 .pic-cover-3 {
-  width: 105vw;
+  width: 100vw;
   height: 200vh;
   border: 80px inset #f9f9f9;
 
