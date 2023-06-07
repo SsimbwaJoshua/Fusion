@@ -107,8 +107,8 @@ h2 {
   transform: skew(156deg, 175deg);
 }
 .pic-cover-4 {
-  width: 7rem;
-  height: 25rem;
+  width: 10rem;
+  height: 33rem;
   background-color: #f9f9f9;
 
   z-index: 10;
@@ -118,19 +118,20 @@ h2 {
   right: 0;
 }
 .pic-cover-5 {
-  width: 25rem;
-  height: 6rem;
+  width: 35rem;
+  height: 10rem;
   background-color: #f9f9f9;
+  /* background-color: red; */
 
   z-index: 10;
 
   position: absolute;
   bottom: 0;
-  right: 0;
+  right: -5rem;
 }
 .pic-cover-6 {
-  width: 9rem;
-  height: 8rem;
+  width: 13rem;
+  height: 10rem;
   background-color: #f9f9f9;
 
   z-index: 10;
@@ -578,7 +579,7 @@ h2 {
 
 .photo-light-right {
   background-color: var(--primary-purple);
-  padding: 8rem 30rem 8rem 5rem;
+  padding: 8rem 18rem 8rem 5rem;
 }
 .PL-text-0 {
   font-size: 1.4rem;
