@@ -76,6 +76,9 @@
   .grid-3 {
     grid-template-columns: 1fr;
   }
+  .section-new-courses {
+    margin-bottom: 20rem;
+  }
   .cart3 {
     grid-column: unset;
   }
@@ -179,6 +182,40 @@
   .grid4 {
     grid-template-columns: 1fr;
   }
+
+  .pic-cover-1 {
+    width: 111vw;
+    left: -15rem;
+
+    border-bottom-right-radius: 200px;
+    transform: skew(150deg, 175deg);
+  }
+  .pic-cover-2 {
+    width: 111vw;
+    left: -15rem;
+
+    border-bottom-right-radius: 200px;
+
+    transform: skew(148deg, 175deg);
+  }
+  .pic-cover-3 {
+    width: 111vw;
+    left: -15rem;
+
+    border-bottom-right-radius: 200px;
+    transform: skew(146deg, 175deg);
+  }
+  .pic-cover-4 {
+    width: 7rem;
+    height: 15rem;
+  }
+  .pic-cover-5 {
+    width: 15rem;
+  }
+  .pic-cover-6 {
+    width: 4rem;
+    height: 4rem;
+  }
 }
 
 /* ///////////////////// */
@@ -224,9 +261,9 @@
 /* ////////////////////// */
 @media (max-width: 28em) {
   .triangle-7 {
-    width: 45rem;
-    height: 45rem;
-    top: -9rem;
+    width: 47rem;
+    height: 47rem;
+    top: -11rem;
   }
   .mid-foot {
     gap: 5rem;
@@ -247,5 +284,70 @@
   .main-heading,
   h2 {
     font-size: 4.4rem;
+  }
+  .first-reco-splitter {
+    flex-direction: column;
+    gap: 3rem;
+
+    margin-bottom: 3rem;
+  }
+  .head-btn-1:link,
+  .head-btn-1:visited {
+    padding: 0.6rem 1rem;
+  }
+  .container {
+    padding: 0 1.5rem;
+  }
+  /* ////////////////////////////////// */
+  .main-person-img {
+    width: 21rem;
+    height: 21rem;
+  }
+  .circular-ring {
+    width: 33rem;
+    height: 33rem;
+  }
+  .snaller-face-1 {
+    width: 7rem;
+    height: 7rem;
+
+    top: 18rem;
+    left: -3.5rem;
+  }
+  .snaller-face-2 {
+    top: 18rem;
+    left: 21rem;
+  }
+  .snaller-face-3 {
+    top: 6rem;
+    left: 24rem;
+  }
+  .snaller-face-4 {
+    width: 5rem;
+    height: 5rem;
+
+    top: -6rem;
+    left: 17rem;
+  }
+  .foot-splitter {
+    column-gap: 3rem;
+    row-gap: 7rem;
+  }
+  .foot-fusion {
+    font-size: 3rem;
+  }
+  .fut-mid-heading {
+    font-size: 1.5rem;
+  }
+  .right-fut-head {
+    margin-bottom: 2.4rem;
+    font-size: 1.6rem;
+  }
+  .input {
+    height: 4rem;
+    width: 22rem;
+  }
+  .foot-btn {
+    padding: 1rem;
   }
 }
